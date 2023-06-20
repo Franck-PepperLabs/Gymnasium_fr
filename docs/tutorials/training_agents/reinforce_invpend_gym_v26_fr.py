@@ -290,7 +290,7 @@ for seed in [1, 2, 3, 5, 8]:  # Fibonacci seeds
 
 # %%
 # Tracer la courbe d'apprentissage
-# ~~~~~~~~~~~~~~~~~~~
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 rewards_to_plot = [[reward[0] for reward in rewards] for rewards in rewards_over_seeds]
