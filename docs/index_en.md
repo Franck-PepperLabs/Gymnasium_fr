@@ -5,11 +5,11 @@ lastpage:
 ---
 
 ```{project-logo} _static/img/gymnasium-text.png
-:alt: Logo de Gymnasium
+:alt: Gymnasium Logo
 ```
 
 ```{project-heading}
-Une API standard pour l'apprentissage par renforcement avec une collection diversifiée d'environnements de référence
+An API standard for reinforcement learning with a diverse collection of reference environments
 ```
 
 ```{figure} _static/videos/box2d/lunar_lander.gif
@@ -17,7 +17,7 @@ Une API standard pour l'apprentissage par renforcement avec une collection diver
    :width: 500
 ```
 
-**Gymnasium est un fork maintenu de la bibliothèque Gym d'OpenAI.** L'interface de Gymnasium est simple, pythonique et capable de représenter des problèmes d'apprentissage par renforcement généraux, et dispose d'un [adaptateur de compatibilité](content/gym_compatibility) pour les anciens environnements de Gym :
+**Gymnasium is a maintained fork of OpenAI’s Gym library.** The Gymnasium interface is simple, pythonic, and capable of representing general RL problems, and has a [compatibility wrapper](content/gym_compatibility) for old Gym environments:
 
 ```{code-block} python
 
@@ -25,7 +25,7 @@ import gymnasium as gym
 env = gym.make("LunarLander-v2", render_mode="human")
 observation, info = env.reset(seed=42)
 for _ in range(1000):
-   action = env.action_space.sample()  # c'est ici que vous inséreriez votre politique
+   action = env.action_space.sample()  # this is where you would insert your policy
    observation, reward, terminated, truncated, info = env.step(action)
 
    if terminated or truncated:
@@ -38,16 +38,16 @@ env.close()
 :hidden:
 :caption: Introduction
 
-content/basic_usage_fr
-content/gym_compatibility_fr
-content/migration-guide_fr
+content/basic_usage
+content/gym_compatibility
+content/migration-guide
 ```
 
 ```{toctree}
 :hidden:
 :caption: API
 
-api/env_fr
+api/env
 api/registry
 api/spaces
 api/wrappers
@@ -74,7 +74,7 @@ environments/third_party_environments
 :caption: Tutoriels
 
 tutorials/**/index
-Tutoriel Comet <https://www.comet.com/docs/v2/integrations/ml-frameworks/gymnasium/?utm_source=gymnasium&utm_medium=partner&utm_campaign=partner_gymnasium_2023&utm_content=docs_gymnasium>
+Comet Tutorial <https://www.comet.com/docs/v2/integrations/ml-frameworks/gymnasium/?utm_source=gymnasium&utm_medium=partner&utm_campaign=partner_gymnasium_2023&utm_content=docs_gymnasium>
 ```
 
 ```{toctree}
@@ -84,5 +84,5 @@ Tutoriel Comet <https://www.comet.com/docs/v2/integrations/ml-frameworks/gymnasi
 Github <https://github.com/Farama-Foundation/Gymnasium>
 gymnasium_release_notes/index
 gym_release_notes/index
-Contribuer à la documentation <https://github.com/Farama-Foundation/Gymnasium/blob/main/docs/README.md>
+Contribute to the Docs <https://github.com/Farama-Foundation/Gymnasium/blob/main/docs/README.md>
 ```

@@ -83,7 +83,7 @@ This will automatically update the :attr:`np_random` with the seed value.
 ## Environment Step
 
 ```{eval-rst}
-In v21, the type definition of :meth:`step` is ``tuple[ObsType, SupportsFloat, bool, dict[str, Any]`` representing the next observation, the reward from the step, if the episode is done and additional info from the step.
+In v21, the type definition of :meth:`step` is ``tuple[ObsType, SupportsFloat, bool, dict[str, Any]]`` representing the next observation, the reward from the step, if the episode is done and additional info from the step.
 Due to reproducibility issues that will be expanded on in a blog post soon, we have changed the type definition to ``tuple[ObsType, SupportsFloat, bool, bool, dict[str, Any]]`` adding an extra boolean value.
 This extra bool corresponds to the older `done` now changed to `terminated` and `truncated`.
 These changes were introduced in Gym `v26 <https://github.com/openai/gym/releases/tag/0.26.0>`_ (turned off by default in `v25 <https://github.com/openai/gym/releases/tag/0.25.0>`_).

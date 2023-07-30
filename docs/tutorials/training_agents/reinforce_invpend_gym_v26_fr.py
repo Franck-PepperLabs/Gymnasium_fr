@@ -1,7 +1,7 @@
 # fmt: off
 """
 Entraînement à l'aide de REINFORCE pour Mujoco
-=============================================
+==============================================
 
 .. image:: /_static/img/tutorials/reinforce_invpend_gym_v26_fig1.gif
   :width: 400
@@ -60,7 +60,7 @@ plt.rcParams["figure.figsize"] = (10, 5)
 
 # %%
 # Réseau de politique
-# ~~~~~~~~~~~~~~~~
+# ~~~~~~~~~~~~~~~~~~~
 #
 # .. image:: /_static/img/tutorials/reinforce_invpend_gym_v26_fig2.png
 #

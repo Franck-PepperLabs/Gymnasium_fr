@@ -125,6 +125,8 @@ Si vous avez un environnement enveloppé et que vous souhaitez obtenir l'environ
 
 ```
 
-## Conclusion
+## Innformations complémentaires
 
-Ce tutoriel a couvert les bases de l'utilisation de Gymnasium, y compris l'initialisation des environnements, l'interaction avec les environnements, la compréhension des espaces d'action et d'observation, ainsi que la modification des environnements à l'aide de wrappers. Gymnasium offre une grande flexibilité pour l'expérimentation et le développement d'agents d'apprentissage par renforcement. N'hésitez pas à explorer la documentation officielle pour en savoir plus sur les fonctionnalités avancées et les détails d'implémentation des environnements disponibles.
+* [Mettre en place un environnement personnalisé à l'aide de l'API Gymnasium](/tutorials/gymnasium_basics/environment_creation/)
+* [Entraîner un agent à jouer au blackjack](/tutorials/training_agents/blackjack_tutorial)
+* [Compatibilité avec OpenAI Gym](/content/gym_compatibility)
